@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "django-minio"
+version = "0.1.0"
+description = ""
+authors = ["pythonuzbek <nusratullo3304@gmail.com>"]
+readme = "README.md"
+packages = [{include = "django_minio"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.1"
+pillow = "^9.5.0"
+boto3 = "1.17.73"
+django-storages = "^1.13.2"
+minio = "^7.1.14"
+django-minio-storage = "^0.5.3"
+django-minio-backend = "^3.5.0"
+django-cors-headers = "3.8.0"
+python-dotenv = "^1.0.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
